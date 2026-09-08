@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", sans-serif;
+  --font-sans: "DM Sans", sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #0b172a; color: #fff; font-family: "DM Sans", sans-serif; }
+
+.topography {
+  background-image: url("data:image/svg+xml,%3Csvg width='800' height='560' viewBox='0 0 800 560' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%237ddccc' stroke-opacity='.12' stroke-width='1'%3E%3Cpath d='M-40 160C115 44 233 270 395 145S696 20 850 136'/%3E%3Cpath d='M-45 190C110 74 233 300 400 175S692 49 850 166'/%3E%3Cpath d='M-50 220C110 102 234 330 403 205S692 78 850 196'/%3E%3Cpath d='M-55 250C110 132 236 360 407 235S692 108 850 226'/%3E%3Cpath d='M-40 390C102 265 250 515 413 380S683 261 850 390'/%3E%3Cpath d='M-40 420C102 295 250 545 413 410S683 291 850 420'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 800px 560px;
+}
+
+.glass-card { background: rgba(22, 48, 76, .47); border: 1px solid rgba(137, 202, 198, .14); box-shadow: 0 18px 45px rgba(1, 10, 25, .18); }
