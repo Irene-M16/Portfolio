@@ -277,7 +277,7 @@ function App() {
       <About />
       <Projects setSelectedProject={setSelectedProject} />
       <Contact />
-      <footer className="footer">© {new Date().getFullYear()} Munguromo Irene. Designed with intention.</footer>
+      <footer className="footer">© {new Date().getFullYear()} Munguromo Irene.</footer>
       
       <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
     </main>
